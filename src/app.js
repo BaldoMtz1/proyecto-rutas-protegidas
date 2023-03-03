@@ -49,4 +49,6 @@ app.listen(config.api.port, () => {
     console.log(`Server started succesfully on ${config.api.host}`)
 })
 
+console.log('Hola')
+
 module.exports = app

@@ -3,7 +3,8 @@ const success = ({status, data, message, res}) => {
         error: false,
         status: status,
         message: message,
-        data: data
+        data
+        // data: data
     })
 } 
 
